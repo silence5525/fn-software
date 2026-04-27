@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飞牛高级MD编辑器</title>
+    
+    <link rel="stylesheet" href="./lib/dist/index.css" />
+    
+    <script src="./lib/dist/index.min.js" defer></script>
+    
+    <script src="./js/main.js" defer></script>
+    
+    <style>
+        body { 
+            margin: 0; 
+            overflow: hidden; /* 防止出现双滚动条 */
+        }
+        /* 强制编辑器铺满全屏 */
+        #vditor { 
+            height: 100vh !important; 
+            border: none !important; 
+        }
+        /* 隐藏编辑器自带的边框，让它看起来更像原生 App */
+        .vditor {
+            border: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div id="vditor"></div>
+</body>
+</html>

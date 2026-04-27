@@ -1,0 +1,13 @@
+{
+    "id": "com.yourname.mdeditor",
+    "name": "高级MD编辑器",
+    "version": "1.0.0",
+    "entry": "index.html",
+    "fileAssociations": [
+      {
+        "extension": "md",
+        "mimeType": "text/markdown",
+        "action": "open"
+      }
+    ]
+  }
